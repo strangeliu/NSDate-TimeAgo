@@ -160,7 +160,7 @@ extension Date {
             }
         }
 
-        if let second = components.second, second > 0 {
+        if let second = components.second {
             if second < 5 {
                 return Helper.localizedStrings(for: "Just now")
             } else {
